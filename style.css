@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#problem {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Create a 2x2 grid of options */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#timer {
+    margin-top: 10px;
+}
